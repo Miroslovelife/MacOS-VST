@@ -1,0 +1,24 @@
+@import "../css/containers-css/header/header.css";
+@import "../css/containers-css/content-css/content.css";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body::before {
+    content: '';
+    position: fixed; /* Фиксируем на одном месте */
+    left: 0; right: 0; /* Вся ширин */
+    top: 0; bottom: 0; /* Вся высота */
+    z-index: -1; /* Фон ниже текста */
+    /* Параметры фона */
+    background: url(../../public/main_background.jpeg) center / cover no-repeat;
+    z-index: -1;
+    filter: blur(3px); /* Размытие */
+   }
+   body {
+color: #fff; /* Цвет текста */
+   }
+
+

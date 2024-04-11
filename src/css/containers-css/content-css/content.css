@@ -1,0 +1,61 @@
+@import url("../../vars.css");
+
+.content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.content-inner{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    column-gap: 20px;
+    
+    width: 80%;
+    
+}
+
+.content-inner > div > form{
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+    border-radius: 20px;
+    align-items: center;
+
+}
+
+.content-inner > div> form:first-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "MontserratBold";
+    font-weight: 500;
+    font-size: 39px;
+    margin-bottom: 40px;
+    height: 80px;
+}
+
+.content-inner > div > form > a{
+    display: flex;
+  width: 90%;
+  height: 80px;
+  background-color: #242424;
+  margin: 20px 20px 20px 20px;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 780px) {
+    .content-inner{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .content-inner > div > form{
+        margin-bottom: 20px;
+    
+    }
+    
+}
