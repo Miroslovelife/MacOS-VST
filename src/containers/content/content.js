@@ -32,7 +32,7 @@ class Content extends React.Component {
                         <form>
                             <a href="/">Нажми</a>
                             <a href="/">Нажми</a>
-                            <a href="/">Нажми</a>
+                            <a href="/">Нажмfи</a>
                         </form>
                     </div>
                 </div>
